@@ -15,7 +15,7 @@ class ChatWindow extends Component {
         <h1>505 React Chattin</h1>
         <div className="window">
         {this.props.messages.map(message => {
-          return <div>message</div>
+          return <div>{message}</div>
         })}
         </div>
       </div>
